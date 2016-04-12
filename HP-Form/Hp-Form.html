@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harry Potter Trivia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div id="welcome-screen">
+            <h1 id="welcome">Welcome to Harry Potter Trivia</h1>
+            <!-- Type in directions here -->
+            <h4 id="name">What is your name?</h4>
+            <form>
+              <div class="input-field col s6">
+                <input id="first-name" type="text" placeholder="Type your first name">
+                <label id="welcome-player" class="active" for="first_name2">Your Name</label>
+                <input id="middle-name" type="text" placeholder="Type your middle name">
+                <label id="welcome-player" class="active" for="middle_name2"></label>
+                <input id="last-name" type="text" placeholder="Type your last name">
+                <label id="welcome-player" class="active" for="last_name2"></label>
+                <button type="submit" id="name-button" class="waves-effect waves-light btn green">Submit</button>
+              </div>
+            </form>
+          </div> <!-- end welcome-screen -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div id="dashboard ">
+            <h3><span id="show-first-name"></span> <span id="show-middle-name"></span> <span id="show-last-name"></span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
